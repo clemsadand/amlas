@@ -15,7 +15,7 @@ The attached notebooks [3](https://github.com/clemsadand/amlas/blob/main/2_4_aml
 In the latent factor model, each user $u_m$ and each item $v_{n}$ are associated with K-dimensional vectors. The predicted rating $\hat r_{mn}$ for a user $u_m$ and an item $v_n$ is given by:
 
 $$
-\hat r_{mn} = u_m^T * v_n + b^u_m + b^i_n
+\hat r_{mn} = u_m^T \cdot v_n + b^u_m + b^i_n
 $$
 
 
