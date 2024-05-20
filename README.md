@@ -57,7 +57,7 @@ The model's performance is evaluated using the Root Mean Square Error (RMSE) on 
 
 ## 4.1 Example Recommendations
 
-The system provides movie recommendations based on user preferences. For example, if a user likes "The Lord of the Rings," the system recommends other similar movies like "The Hobbit" and "Star Wars" series.
+The system provides movie recommendations based on user preferences. 
 
 When a user likes (gives starts) the movie: **Avengers: Age of Ultron (2015)**, these the recommended movie by the system.
 
