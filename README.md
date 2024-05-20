@@ -24,6 +24,7 @@ where $b^u_m$ and $b^i_n$ are the biases for the user and item, respectively.
 ### Objective Function
 
 The parameters are learned by minimizing the regularized negative log-likelihood:
+
 $$
 \begin{aligned}
 \mathcal L &= \sum_{m} \sum_{n\in \Omega(m)} \frac{\lambda}{2} (r_{mn} -(u_m^T v_n+ b_m^{(m)} + b_n^{(i)}))^2\\
