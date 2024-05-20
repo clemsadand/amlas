@@ -2,15 +2,15 @@
 
 This repository contains the implementation of a movie recommender system using collaborative filtering with a latent factor model. The system is built and trained using the MovieLens dataset and evaluates its performance using the Root Mean Square Error (RMSE) metric.
 
-## Overview
+## 1. Overview
 
 The goal of this project is to build a recommender system that suggests movies to users based on their past ratings. The system uses a latent factor model, which represents users and items (movies) in a shared latent feature space. The model learns user and item vectors, as well as biases, to predict ratings and make recommendations. It is trained on a [MovieLens dataset](https://files.grouplens.org/datasets/movielens/ml-25m.zip).
 
 The attached notebooks [3](https://github.com/clemsadand/amlas/blob/main/2_4_amls_practice_3.ipynb) and [4](https://github.com/clemsadand/amlas/blob/main/2_0_AMLS_practice_4.ipynb) provide an overview of how the recommender system works. The notebook 3 implements a recommender system based only on the interaction between users and movies. In addition to this interaction, the in the notebook 4 implements a recommender system taking the genres of each movies into accounts. In the following, we describe the first recommender system.
 
-## Model Description
+## 2. Model Description
 
-### Latent Factor Model
+### 2.1 Latent Factor Model
 
 In the latent factor model, each user $u_m$ and each item $v_{n}$ are associated with K-dimensional vectors. The predicted rating $\hat r_{mn}$ for a user $u_m$ and an item $v_n$ is given by:
 
@@ -21,7 +21,7 @@ $$
 
 where $b^u_m$ and $b^i_n$ are the biases for the user and item, respectively.
 
-### Objective Function
+### 2.2 Objective Function
 
 The parameters are learned by minimizing the regularized negative log-likelihood:
 
@@ -36,11 +36,11 @@ $$
 
 Regularization terms with mean-zero Gaussian priors are added to the user and item vectors and biases.
 
-### Optimization
+### 2.3 Optimization
 
 The optimization is performed using the Alternative Least Squares (ALS) algorithm. The ALS algorithm iteratively updates the user vectors, item vectors, and biases by solving a series of least squares problems.
 
-## Implementation
+## 3. Implementation
 
 The implementation includes the following steps:
 
@@ -49,13 +49,13 @@ The implementation includes the following steps:
 3. **Evaluation**: Evaluate the model's performance using RMSE.
 4. **Prediction**: Generate movie recommendations for users.
 
-## Evaluation
+## 4. Evaluation
 
 The model's performance is evaluated using the Root Mean Square Error (RMSE) on both the training and test datasets. The plot below illustrates the change the RMSE over iterations. The RMSE decreases steadily over iterations, indicating the model's learning process. 
 
 ![rmse_progress](https://github.com/clemsadand/amlas/assets/132694770/c055457f-92dd-4283-8cb0-9c24c4bcd2ce)
 
-## Example Recommendations
+## 4.1 Example Recommendations
 
 The system provides movie recommendations based on user preferences. For example, if a user likes "The Lord of the Rings," the system recommends other similar movies like "The Hobbit" and "Star Wars" series.
 
@@ -87,7 +87,7 @@ You rate this movie: **Avengers: Age of Ultron (2015)**
 | Spider-Man: Far from Home (2019)                   |
 
 
-## Usage
+## 4.2 Usage
 
 To use this repository, follow these steps:
 
@@ -113,7 +113,7 @@ To use this repository, follow these steps:
     ```
 --->
 
-## Contributing
+## 4.3 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
 
