@@ -6,6 +6,8 @@ This repository contains the implementation of a movie recommender system using 
 
 The goal of this project is to build a recommender system that suggests movies to users based on their past ratings. The system uses a latent factor model, which represents users and items (movies) in a shared latent feature space. The model learns user and item vectors, as well as biases, to predict ratings and make recommendations. It is trained on a [MovieLens dataset](https://files.grouplens.org/datasets/movielens/ml-25m.zip).
 
+The attached notebooks 3 and 4 provide an overview of how the recommender system works. 
+
 ## Model Description
 
 ### Latent Factor Model
