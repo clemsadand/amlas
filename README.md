@@ -51,9 +51,9 @@ The implementation includes the following steps:
 
 ## Evaluation
 
-The model's performance is evaluated using the Root Mean Square Error (RMSE) on both the training and test datasets. The RMSE decreases steadily over iterations, indicating the model's learning process. The plot below illustrates the change the RMSE over iterations.
+The model's performance is evaluated using the Root Mean Square Error (RMSE) on both the training and test datasets. The plot below illustrates the change the RMSE over iterations. The RMSE decreases steadily over iterations, indicating the model's learning process. 
 
-[reg_rmse_for_biases_with (4).pdf](https://github.com/clemsadand/amlas/files/15381390/reg_rmse_for_biases_with.4.pdf)
+![rmse_progress](https://github.com/clemsadand/amlas/assets/132694770/c055457f-92dd-4283-8cb0-9c24c4bcd2ce)
 
 ## Example Recommendations
 
