@@ -28,8 +28,8 @@ $$
 \begin{aligned}
 \mathcal L &= \sum_{m} \sum_{n\in \Omega(m)} \frac{\lambda}{2} (r_{mn} -(u_m^T v_n+ b_m^{(m)} + b_n^{(i)}))^2\\
 &+\frac{\tau}{2}\left(\sum_{m} u_m^Tu_m + \sum_{n} v_n^Tv_n\right)\\
-&+\frac{\gamma}{2}\left(\sum_{m} (b_{m}^{(u)})^2 + \sum_{n} (b_{n}^{(i)})^2   \right)
-\end{aligned}\label{eq1}
+&+\frac{\gamma}{2}\left(\sum_{m} (b_{m}^{(u)})^2 + \sum_{n} (b_{n}^{(i)})^2\right)
+\end{aligned}
 $$
 
 
