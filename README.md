@@ -6,7 +6,7 @@ This repository contains the implementation of a movie recommender system using 
 
 The goal of this project is to build a recommender system that suggests movies to users based on their past ratings. The system uses a latent factor model, which represents users and items (movies) in a shared latent feature space. The model learns user and item vectors, as well as biases, to predict ratings and make recommendations. It is trained on a [MovieLens dataset](https://files.grouplens.org/datasets/movielens/ml-25m.zip).
 
-The attached notebooks 3 and 4 provide an overview of how the recommender system works. 
+The attached notebooks [3](https://github.com/clemsadand/amlas/blob/main/2_4_amls_practice_3.ipynb) and [4](https://github.com/clemsadand/amlas/blob/main/2_0_AMLS_practice_4.ipynb) provide an overview of how the recommender system works. The notebook 3 implements a recommender system based only on the interaction between users and movies. In addition to this interaction, the in the notebook 4 implements a recommender system taking the genres of each movies into accounts. In the following, we describe the first recommender system.
 
 ## Model Description
 
