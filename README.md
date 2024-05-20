@@ -64,7 +64,7 @@ To use this repository, follow these steps:
 1. Clone the repository:
     ```
     git clone https://github.com/clemsadand/amlas.git
-    cd recommender-system
+    cd project
     ```
 
 2. Install the required dependencies:
@@ -74,13 +74,14 @@ To use this repository, follow these steps:
 
 3. Run the training script:
     ```
-    python train.py
+    python src/main.py
     ```
 
-4. Generate recommendations for a new user:
+<!---4. Generate recommendations for a new user:
     ```
     python recommend.py --user_id <USER_ID>
     ```
+--->
 
 ## Contributing
 
