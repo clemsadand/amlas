@@ -61,28 +61,30 @@ The system provides movie recommendations based on user preferences. For example
 
 When a user likes (gives starts) the movie: **Avengers: Age of Ultron (2015)**, these the recommended movie by the system.
 
-| movieId | title                                              | genres                                       |
-|---------|----------------------------------------------------|----------------------------------------------|
-| 25068   | 122914 | Avengers: Infinity War - Part II (2019)              | Action|Adventure|Sci-Fi                      |
-| 25067   | 122912 | Avengers: Infinity War - Part I (2018)               | Action|Adventure|Sci-Fi                      |
-| 25071   | 122920 | Captain America: Civil War (2016)                   | Action|Sci-Fi|Thriller                       |
-| 17067   | 89745  | Avengers, The (2012)                                | Action|Adventure|Sci-Fi|IMAX                 |
-| 21348   | 110102 | Captain America: The Winter Soldier (2014)          | Action|Adventure|Sci-Fi|IMAX                 |
-| 25069   | 122916 | Thor: Ragnarok (2017)                               | Action|Adventure|Sci-Fi                      |
-| 25058   | 122892 | Avengers: Age of Ultron (2015)                      | Action|Adventure|Sci-Fi                      |
-| 25074   | 122926 | Untitled Spider-Man Reboot (2017)                   | Action|Adventure|Fantasy                     |
-| 49883   | 179819 | Star Wars: The Last Jedi (2017)                     | Action|Adventure|Fantasy|Sci-Fi              |
-| 25064   | 122906 | Black Panther (2017)                                | Action|Adventure|Sci-Fi                      |
-| 25066   | 122910 | Captain Marvel (2018)                               | Action|Adventure|Sci-Fi                      |
-| 20602   | 106487 | The Hunger Games: Catching Fire (2013)              | Action|Adventure|Sci-Fi|IMAX                 |
-| 16725   | 88140  | Captain America: The First Avenger (2011)           | Action|Adventure|Sci-Fi|Thriller|War         |
-| 29958   | 135133 | The Hunger Games: Mockingjay - Part 2 (2015)        | Adventure|Sci-Fi                            |
-| 19678   | 102125 | Iron Man 3 (2013)                                   | Action|Sci-Fi|Thriller|IMAX                  |
-| 23024   | 116823 | The Hunger Games: Mockingjay - Part 1 (2014)        | Adventure|Sci-Fi|Thriller                   |
-| 25055   | 122886 | Star Wars: Episode VII - The Force Awakens (2015)   | Action|Adventure|Fantasy|Sci-Fi|IMAX         |
-| 33522   | 143355 | Wonder Woman (2017)                                 | Action|Adventure|Fantasy                     |
-| 53867   | 188301 | Ant-Man and the Wasp (2018)                         | Action|Adventure|Comedy|Fantasy|Sci-Fi       |
-| 59844   | 201773 | Spider-Man: Far from Home (2019)                    | Action|Adventure|Sci-Fi                      |
+You rate this movie: **Avengers: Age of Ultron (2015)**
+
+| Title                                              |
+|----------------------------------------------------|
+| Avengers: Infinity War - Part II (2019)            |
+| Avengers: Infinity War - Part I (2018)             |
+| Captain America: Civil War (2016)                  |
+| Avengers, The (2012)                               |
+| Captain America: The Winter Soldier (2014)         |
+| Thor: Ragnarok (2017)                              |
+| Avengers: Age of Ultron (2015)                     |
+| Untitled Spider-Man Reboot (2017)                  |
+| Star Wars: The Last Jedi (2017)                    |
+| Black Panther (2017)                               |
+| Captain Marvel (2018)                              |
+| The Hunger Games: Catching Fire (2013)             |
+| Captain America: The First Avenger (2011)          |
+| The Hunger Games: Mockingjay - Part 2 (2015)       |
+| Iron Man 3 (2013)                                  |
+| The Hunger Games: Mockingjay - Part 1 (2014)       |
+| Star Wars: Episode VII - The Force Awakens (2015)  |
+| Wonder Woman (2017)                                |
+| Ant-Man and the Wasp (2018)                        |
+| Spider-Man: Far from Home (2019)                   |
 
 
 ## Usage
