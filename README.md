@@ -1,5 +1,7 @@
 # Movie Recommender System
 
+https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white
+
 This repository contains the implementation of a movie recommender system using collaborative filtering with a latent factor model. The system is built and trained using the MovieLens dataset and evaluates its performance using the Root Mean Square Error (RMSE) metric.
 
 ## 1. Overview
