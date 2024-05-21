@@ -18,8 +18,8 @@ def data_indexing(ratings):
 		if not u_id in user_to_id.keys():
 			user_to_id[u_id] = len(user_to_id)
 			id_to_user.append(u_id)
-		  	#get the movieId watched by user
-			m_id = ratings[i,1]
+		#get the movieId watched by user
+		m_id = ratings[i,1]
 		#check if movieId (watched by user) is already in movie_to_id
 		if not m_id in movie_to_id.keys():
 			movie_to_id[m_id] = len(movie_to_id)

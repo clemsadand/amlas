@@ -58,7 +58,7 @@ def training(
 	):
 
 	#Initialization
-	user_vec = np.random.normal(0, 1/np.sqrt(K), size= (M, K))
+	user_vec = np.random.normal(0, 1/np.sqrt(K), size= (M,K))
 	user_biases = np.zeros(M)
 	item_vec = np.random.normal(0, 1/np.sqrt(K), size=(N,K))
 	item_biases = np.zeros(N)
@@ -122,10 +122,10 @@ def training_with_features(
 	gamma = 0.01,
 	tau = 0.5,
 	tau_feat = 0.01,
-	num_epoch = 10,
+	num_epoch = 10
 	):
     #Initialization
-	user_vec = np.random.normal(0, 1/np.sqrt(K), size= (M, K))
+	user_vec = np.random.normal(0, 1/np.sqrt(K), size= (M,K))
 	user_biases = np.zeros(M)
 	item_vec = np.random.normal(0, 1/np.sqrt(K), size=(N,K))
 	item_biases = np.zeros(N)
@@ -185,30 +185,3 @@ def training_with_features(
 		test_rmse_history
 	)
 
-# def predict(movie_indices, rates, K, item_vec, lambd, tau, gamma):
-# 	#get a movie id
-# 	#4993#2116#
-# 	movie_id = 122892#
-# 	rate = 5
-# 	K = 10
-# 	# print(f"You rate this movie : {movies.iloc[np.where(movies['movieId'].values == movie_id)[0][0]].title}")
-# 	#train a dummpy user
-# 	new_user = np.zeros(K)
-# 	# r_m = np.array([rate])
-# 	# movie_indices = [movie_to_id[movie_id]]
-# 	for epoch in range(num_epoch):
-# 		term1 = lambd*np.dot(item_vec[movie_indices].T, item_vec[movie_indices])+tau*np.eye(K,K)
-# 		term2 = np.array(rates) - item_biases[movie_indices]
-# 		term2 = lambd*np.sum(item_vec[movie_indices]*term2.reshape(-1,1), axis=0)
-# 		new_user = np.linalg.solve(term1, term2)
-
-# 	#Compute the rates
-# 	score_for_item = np.array([np.dot(new_user, item_vec[n])+item_biases[n] for n in movie_rated_more_than_20])
-# 	# #Sort the score_for_item and their indices
-# 	recommendations = sort_with_indices(score_for_item)[:20]#[np.where(movies["movieId"].values == id_to_movie[idx])[0][0] for idx in recommendation_idx]
-# 	# #  and get the indices of 20 best rates
-# 	recommended_movies = [movie_rated_more_than_20[n] for n in recommendations]
-# 	# #Looking for the original indices of these movies
-# 	recommended_movies = [np.where(movies["movieId"].values == id_to_movie[idx])[0][0] for idx in recommended_movies]
-
-# 	movies.iloc[recommended_movies]

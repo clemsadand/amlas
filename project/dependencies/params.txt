@@ -1,0 +1,6 @@
+K = 10
+lambd=1
+gamma=0.01
+tau=0.5
+tau_feat=0.01
+num_epoch = 20
