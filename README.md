@@ -61,7 +61,7 @@ The model's performance is evaluated using the Root Mean Square Error (RMSE) on 
 
 The system provides movie recommendations based on user preferences. 
 
-When a user likes (gives starts) the movie: **Avengers: Age of Ultron (2015)**, these the recommended movie by the system.
+When a user likes (gives starts) the movie: **Avengers: Age of Ultron (2015)**, the recommended movies by the system are listed asin following the table. 
 
 You rate this movie: **Avengers: Age of Ultron (2015)**
 
