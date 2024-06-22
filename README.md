@@ -98,13 +98,13 @@ To use this repository, follow these steps:
     git clone https://github.com/clemsadand/amlas.git
     cd project
     ```
-
+<!--
 2. Install the required dependencies:
     ```
     pip install -r requirements.txt
-    ```
+    ```-->
 
-3. Run the training script:
+2. Run the training script:
     ```
     python src/main.py
     ```
@@ -119,8 +119,8 @@ To use this repository, follow these steps:
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
 
-<!---## License
+## License
 
 This project is licensed under the MIT License.
---->
+
 
