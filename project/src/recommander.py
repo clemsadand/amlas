@@ -51,7 +51,7 @@ def movie_liked(movies):
 
 if __name__ == "__main__":
     # texts
-    movies = pd.read_csv("../dataset/movies.csv")
+    movies = pd.read_csv("../dataset/ml-25m/movies.csv")
     
     
     
