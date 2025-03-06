@@ -96,7 +96,7 @@ To use this repository, follow these steps:
 1. Clone the repository:
     ```
     git clone https://github.com/clemsadand/amlas.git
-    cd project
+    cd amlas/project
     ```
 <!--
 2. Install the required dependencies:
