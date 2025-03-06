@@ -97,6 +97,8 @@ To use this repository, follow these steps:
     ```
     git clone https://github.com/clemsadand/amlas.git
     cd amlas/project
+    wget https://files.grouplens.org/datasets/movielens/ml-25m.zip
+    unzip ml-25m.zip -d dataset
     ```
 <!--
 2. Install the required dependencies:
