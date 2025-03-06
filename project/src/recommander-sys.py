@@ -2,9 +2,9 @@ from import_lib import pd, pickle
 from preprocessing import *
 from training import *
 from recommander import *
-
 #Hyperparameters
 K, num_epoch, tau, lambd = 10, 20, 0.4, 5
+
 
 #Load model's dependencies and parameters
 def loading(path):
@@ -22,9 +22,14 @@ def loading(path):
     return data_by_movie, movie_to_id, id_to_movie, item_vec, item_biases
 
 #Dependencies loading
+ratings = pd.read_csv("../dataset/ml-25m/ratings.csv").values
+M = len(np.unique(ratings[:,0]))
+N = len(np.unique(ratings[:,1]))
+
+
 movies =pd.read_csv("../dataset/ml-25m/movies.csv")
 data_by_movie, movie_to_id, id_to_movie, item_vec, item_biases = loading("../dependencies/")
-movie_rated_more_than_20 = movie_rated_more_than_20 = [n for n in range(N) if len(data_by_movie[n])>20]
+movie_rated_more_than_20 = [n for n in range(N) if len(data_by_movie[n])>20]
 
 #Recommandation
 movie_id = movie_liked(movies)
