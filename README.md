@@ -111,11 +111,11 @@ To use this repository, follow these steps:
     python src/main.py
     ```
 
-<!---4. Generate recommendations for a new user:
+3. Generate recommendations for a new user:
     ```
-    python recommend.py --user_id <USER_ID>
+    python recommender-sys.py
     ```
---->
+
 
 ## 4.3 Contributing
 
